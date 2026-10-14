@@ -1,0 +1,30 @@
+{
+  "name": "broken-lyrics",
+  "version": "1.0.0",
+  "description": "Song lyrics lookup with zero dependencies. Search, plain lyrics, synced LRC lyrics and timestamp parsing. No API key.",
+  "keywords": [
+    "lyrics", "lyrics-api", "lrc", "synced-lyrics", "song", "music",
+    "lrclib", "karaoke", "zero-dependency", "fetch"
+  ],
+  "license": "MIT",
+  "author": "Akewushola Abdulbakri Temitope (brokenvzn) <akewusholaabdulbakri101@gmail.com>",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.mjs"
+    }
+  },
+  "files": ["index.js", "index.mjs", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test.js",
+    "test:live": "node --test test-live.js"
+  },
+  "engines": { "node": ">=18" },
+  "repository": { "type": "git", "url": "git+https://github.com/Neaterry6/broken-lyrics.git" },
+  "bugs": { "url": "https://github.com/Neaterry6/broken-lyrics/issues" },
+  "homepage": "https://github.com/Neaterry6/broken-lyrics#readme",
+  "sideEffects": false
+}
